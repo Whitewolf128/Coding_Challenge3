@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { ObjectSchema } from "joi";
 
 import { MiddlewareFunction } from "../types/expressTypes";
-import { HTTP_STATUS } from "../../../constants/httpConstants";
+import { HTTP_STATUS } from "../constants/httpConstants";
 
 interface RequestSchemas {
     body?: ObjectSchema;

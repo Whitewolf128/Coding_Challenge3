@@ -5,6 +5,6 @@ export interface Product {
     quantity: number;
     price: number;
     category: string;
-    createdAt: string;
-    updatedAt: string;
+    createdAt?: string;
+    updatedAt?: string;
 }
